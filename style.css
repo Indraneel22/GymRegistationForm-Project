@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #8a95a9, #8a95a9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+form:hover {
+    transform: scale(1.01);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #e63946;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.f1 h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="datetime-local"]:focus,
+select:focus {
+    border-color: #457b9d;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(69, 123, 157, 0.3);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #457b9d;
+}
+
+h4 {
+    margin-top: 30px;
+    color: #444;
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #e63946, #f1a208);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #d62828, #f77f00);
+    transform: scale(1.05);
+}

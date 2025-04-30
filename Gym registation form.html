@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym registation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+    <style>
+        .h1 {
+            text-align: center;
+            color: rgb(242, 84, 84);
+        }
+
+        .f1 {
+            text-align: center;
+        }
+
+        form {
+            border: 2px solid black;
+
+        }
+    </style>
+    <form class="f1">
+        <h1 class="h1">Gym registation Form</h1>
+        <h3>Fill out the information below to sign up for our Gym facilities</h3>
+        <br>
+        First Name:
+        <input type="text" Name="First name"><br><br>
+        Last Name:
+        <input type="text" Name="Last name">
+        <br><br>
+        E-Mail:
+        <input type="email" name="Email">
+        <br>
+        <br>
+        Phone No:
+        <input type="text" name="Phone No" maxlength="10">
+        <br>
+        <br>
+        Date of Birth:
+        <input type="datetime-local" name="Date of Birth">
+        <br>
+        <br>
+        Gender:<br>
+        <input type="radio" name="Gender" value="Male">Male<br>
+        <input type="radio" name="Gender" value="Male">Female<br>
+        <input type="radio" name="Gender" value="Male">Other<br>
+        <br>
+        Prefferd Workout Time:<br>
+        <input type="checkbox" name="Morning" value="Bike">Morning
+        <input type="checkbox" name="evening" value="Bike">evening
+        <input type="checkbox" name="afternoon" value="Bike">afternoon
+        <input type="checkbox" name="Night" value="Bike">Night
+        <br>
+        <br>
+        Fitness Goal:
+        <select name="Fitness Goal">
+            <option value="Improve Strength">Improve Strength</option>
+            <option value="Fat loss">Fat loss</option>
+            <option value="Muscle Gain">Muscle Gain</option>
+            <option value="Perfact form">Perfact form</option>
+            <option value="Increase Flexibility">Increase Flexibility</option>
+            <option value="Improve Cardio">Improve Cardio</option>
+        </select>
+        <h4>Please read and accept the terms and condition to proceed with the registation</h4>
+        <input type="checkbox">I Accept the terms and condition
+        <br>
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+
+</html>
